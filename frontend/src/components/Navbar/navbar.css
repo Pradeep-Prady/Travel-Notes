@@ -1,0 +1,43 @@
+.navbar {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+}
+.logo-container img {
+  width: 30px;
+  margin-right: 6px;
+}
+.logo-container a {
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+
+.navbar .links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .links li {
+  padding: 0 30px;
+  list-style: none;
+}
+
+.navbar .links li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.profile-container a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
